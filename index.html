@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daily Notes</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<input type="checkbox" id="menu-toggle" hidden />
+
+<div class="menu-drawer">
+  <label for="menu-toggle" class="overlay"></label>
+  <div class="menu-content">
+    <label for="menu-toggle" class="close-btn">&times;</label>
+    <nav class="menu-links">
+      <a href="#">🏠 Home</a>
+      <label for="toggle-calendar-grid" class="menu-link">📅 Calendar</label>
+      <a href="#">🔍 Search</a>
+    </nav>
+  </div>
+</div>
+<body>
+  <div class="app-container">
+    <header class="header-with-menu">
+  <h2>Daily Notes</h2>
+  <label for="menu-toggle" class="menu-icon">
+    &#9776;
+  </label>
+</header>
+
+    <section class="profile-row">
+  <img src="c:\Users\ACER\Downloads\zahra.jpeg" alt="Foto Profil Zahra" class="avatar" />
+  <h3 class="profile-name">Zahra Meifta Amalia</h3>
+</section>
+
+    <section class="todo-list">
+      <h4>To Do List</h4>
+      <div class="todo-item">
+        <input type="checkbox" />
+        <label>Shopping</label>
+        <span class="badge today">Today 🔔</span>
+      </div>
+      <div class="todo-item">
+        <input type="checkbox" />
+        <label>Workout</label>
+        <span class="badge tomorrow">Tomorrow 🔔</span>
+      </div>
+    </section>
+
+    <section class="category">
+      <button>Work</button>
+      <button>Personal</button>
+      <button>Study</button>
+    </section>
+
+    <section class="action-buttons">
+      <button class="btn grey">Add Reminder</button>
+      <button class="btn grey">Add Note</button>
+      <button class="btn blue">Add Checklist</button>
+    </section>
+
+    <section class="stats">
+      <h4>Productivity Stats</h4>
+      <div class="stats-row">
+        <div class="stat-box">
+          <p>Total Completed</p>
+          <h3>15</h3>
+          <span class="up">+25%</span>
+        </div>
+        <div class="stat-box">
+          <p>Overdue Tasks</p>
+          <h3>3</h3>
+          <span class="down">-10%</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="recent-notes">
+  <h4>Recent Notes</h4>
+
+  <img src="c:\Users\ACER\Downloads\meeting notes.jpeg" alt="Recent Notes Image" class="recent-img"/>
+
+  <div class="note-card">
+    <div class="note-content">
+      <strong>Meeting Notes</strong>
+      <p>Summary of client meeting 📎</p>
+    </div>
+  </div>
+</section>
+
+
+    <section class="labels">
+      <h4>Labels</h4>
+      <div class="label-tags">
+        <span class="label urgent">Work</span>
+        <span class="label urgent">Personal</span>
+        <span class="label urgent">Study</span>
+        <span class="label">games</span>
+        <span class="label">Organisasi</span>
+        <span class="label">date</span>
+      </div>
+    </section>
+  </div>
+<footer>
+  <nav class="bottom-nav">
+    <a href="#">
+      <img src="https://img.icons8.com/ios-filled/24/home.png" alt="Home">
+    </a>
+    <a href="#">
+     <label for="toggle-calendar-grid" class="calendar-icon">
+  <img src="https://img.icons8.com/ios-filled/24/calendar.png" alt="Calendar" />
+  <span>Calendar</span>
+</label>
+    </a>
+    <a href="#">
+      <img src="https://img.icons8.com/ios-filled/24/search--v1.png" alt="Search">
+    </a>
+  </nav>
+</footer>
+<input type="checkbox" id="toggle-calendar-grid" hidden />
+
+<div class="calendar-popup">
+  <label for="toggle-calendar-grid" class="overlay"></label>
+  <div class="calendar-box">
+    <label for="toggle-calendar-grid" class="close-btn">&times;</label>
+    <section class="calendar-section">
+      <h4>Pilih Tanggal</h4>
+      <div class="calendar-grid">
+        <div class="day-name">Mon</div>
+        <div class="day-name">Tue</div>
+        <div class="day-name">Wed</div>
+        <div class="day-name">Thu</div>
+        <div class="day-name">Fri</div>
+        <div class="day-name">Sat</div>
+        <div class="day-name sun">Sun</div>
+
+        <button class="date">1</button>
+        <button class="date">2</button>
+        <button class="date">3</button>
+        <button class="date">4</button>
+        <button class="date">5</button>
+        <button class="date">6</button>
+        <button class="date">7</button>
+        <button class="date">8</button>
+        <button class="date">9</button>
+        <button class="date">10</button>
+        <button class="date">11</button>
+        <button class="date">12</button>
+        <button class="date">13</button>
+        <button class="date">14</button>
+        <button class="date">15</button>
+        <button class="date">16</button>
+        <button class="date">17</button>
+        <button class="date">18</button>
+        <button class="date">19</button>
+        <button class="date">20</button>
+        <button class="date">21</button>
+        <button class="date">22</button>
+        <button class="date">23</button>
+        <button class="date">24</button>
+        <button class="date">25</button>
+        <button class="date">26</button>
+        <button class="date">27</button>
+        <button class="date">28</button>
+        <button class="date">29</button>
+        <button class="date">30</button>
+        <button class="date">31</button>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
